@@ -1,7 +1,7 @@
 """An example module containing simplistic functions."""
 
 
-def greetings() -> str:
+def greetings(test: str) -> str:
     """A friendly greeting for a future friend.
 
     Returns
@@ -20,4 +20,3 @@ def meaning() -> int:
     int
         The meaning of life.
     """
-    return 42
