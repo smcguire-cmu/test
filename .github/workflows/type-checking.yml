@@ -28,5 +28,5 @@ jobs:
     - name: Analyze code with mypy
 
       run: |
-        mypy ./src --ignore-missing-imports
+        mypy ./src ./tests --ignore-missing-imports
 
