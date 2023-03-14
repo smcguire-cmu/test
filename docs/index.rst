@@ -10,3 +10,4 @@ Welcome to example_module's documentation!
 
    Home page <self>
    API Reference <autoapi/index>
+   Notebooks <notebooks>

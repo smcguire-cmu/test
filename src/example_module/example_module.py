@@ -9,6 +9,8 @@ def greetings() -> str:
     str
         A typical greeting from a software engineer.
     """
+    example_var = "test"
+    print(example_var)
     return "Hello from LINCC-Frameworks!"
 
 
