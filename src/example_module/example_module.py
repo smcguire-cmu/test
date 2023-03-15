@@ -1,7 +1,7 @@
 """An example module containing simplistic functions."""
 
 
-def greetings(test: str) -> str:
+def greetings() -> str:
     """A friendly greeting for a future friend.
 
     Returns
@@ -9,6 +9,8 @@ def greetings(test: str) -> str:
     str
         A typical greeting from a software engineer.
     """
+    example_var = "test"
+    print(example_var)
     return "Hello from LINCC-Frameworks!"
 
 
@@ -20,3 +22,4 @@ def meaning() -> int:
     int
         The meaning of life.
     """
+    return 42
